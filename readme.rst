@@ -16,8 +16,9 @@ This repo contains in-development code for future releases.
 Development Team
 ****************
 
-Andrea Giada Bassani: https://www.linkedin.com/in/andreagiadabassani/
-Ivan Porta: https://www.linkedin.com/in/ivanporta/
+**Andrea Giada Bassani**: (`LinkedIn <https://www.linkedin.com/in/andreagiadabassani>`_).
+
+**Ivan Porta**: (`LinkedIn <https://www.linkedin.com/in/ivanporta>`_). 
 
 **************************
 Changelog and New Features
