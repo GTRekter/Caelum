@@ -1,35 +1,25 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+date_default_timezone_set('Asia/Kolkata');
+
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
 |--------------------------------------------------------------------------
-|
-| URL to your CodeIgniter root. Typically this will be your base URL,
-| WITH a trailing slash:
-|
-|	http://example.com/
-|
-| If this is not set then CodeIgniter will try guess the protocol, domain
-| and path to your installation. However, you should always configure this
-| explicitly and never rely on auto-guessing, especially in production
-| environments.
-|
 */
-$config['base_url'] = 'http://localhost:8888/ibiscoblu/';
-$config['server_root'] = $_SERVER['DOCUMENT_ROOT'];
-$config['resources_url'] = $config['base_url'] . 'resources';
+$config['base_url']     = 'http://localhost:8888/IbiscoBlu/';
+$config['server_root']  = $_SERVER['DOCUMENT_ROOT'];
+$config['contents_url'] = $config['base_url'] . '/contents';
+$config['contents_css'] = $config['contents_url'] . "/css";
+$config['contents_js']  = $config['contents_url'] . "/js";
+$config['contents_img'] = $config['contents_url'] . "/img";	
+$config['libraries_url']  = $config['contents_url'] . '/libraries';
 
 /*
 |--------------------------------------------------------------------------
 | Index File
 |--------------------------------------------------------------------------
-|
-| Typically this will be your index.php file, unless you've renamed it to
-| something else. If you are using mod_rewrite to remove the page set this
-| variable so that it is blank.
-|
 */
 $config['index_page'] = 'index.php';
 
@@ -73,18 +63,12 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
+$config['language']	= '';
 
 /*
 |--------------------------------------------------------------------------
 | Default Character Set
 |--------------------------------------------------------------------------
-|
-| This determines which character set is used by default in various methods
-| that require a character set to be provided.
-|
-| See http://php.net/htmlspecialchars for a list of supported charsets.
-|
 */
 $config['charset'] = 'UTF-8';
 
@@ -139,21 +123,6 @@ $config['composer_autoload'] = FALSE;
 |--------------------------------------------------------------------------
 | Allowed URL Characters
 |--------------------------------------------------------------------------
-|
-| This lets you specify which characters are permitted within your URLs.
-| When someone tries to submit a URL with disallowed characters they will
-| get a warning message.
-|
-| As a security measure you are STRONGLY encouraged to restrict URLs to
-| as few characters as possible.  By default only these are allowed: a-z 0-9~%.:_-
-|
-| Leave blank to allow all characters -- but only if you are insane.
-|
-| The configured value is actually a regular expression character group
-| and it will be executed as: ! preg_match('/^[<permitted_uri_chars>]+$/i
-|
-| DO NOT CHANGE THIS UNLESS YOU FULLY UNDERSTAND THE REPERCUSSIONS!!
-|
 */
 $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 
@@ -289,10 +258,6 @@ $config['cache_path'] = '';
 |--------------------------------------------------------------------------
 | Cache Include Query String
 |--------------------------------------------------------------------------
-|
-| Set this to TRUE if you want to use different cache files depending on the
-| URL query string.  Please be aware this might result in numerous cache files.
-|
 */
 $config['cache_query_string'] = FALSE;
 
@@ -314,44 +279,27 @@ $config['encryption_key'] = 'C1O2N3S4O5L6E';
 | Session Variables
 |--------------------------------------------------------------------------
 |
-| 'sess_driver'
+| 'sess_driver' : The storage driver to use: files, database, redis, memcached
 |
-|	The storage driver to use: files, database, redis, memcached
+| 'sess_cookie_name': The session cookie name, must contain only [0-9a-z_-] characters
 |
-| 'sess_cookie_name'
+| 'sess_expiration': The number of SECONDS you want the session to last.
+|	                 Setting to 0 (zero) means expire when the browser is closed.
 |
-|	The session cookie name, must contain only [0-9a-z_-] characters
+| 'sess_save_path': The location to save sessions to, driver dependant.
+|                   For the 'files' driver, it's a path to a writable directory.
+|	                WARNING: Only absolute paths are supported!
 |
-| 'sess_expiration'
+|	                For the 'database' driver, it's a table name.
+|                   IMPORTANT: You are REQUIRED to set a valid save path!
 |
-|	The number of SECONDS you want the session to last.
-|	Setting to 0 (zero) means expire when the browser is closed.
+| 'sess_match_ip': Whether to match the user's IP address when reading the session data.
 |
-| 'sess_save_path'
+| 'sess_time_to_update': How many seconds between CI regenerating the session ID.
 |
-|	The location to save sessions to, driver dependant.
-|
-|	For the 'files' driver, it's a path to a writable directory.
-|	WARNING: Only absolute paths are supported!
-|
-|	For the 'database' driver, it's a table name.
-|	Please read up the manual for the format with other session drivers.
-|
-|	IMPORTANT: You are REQUIRED to set a valid save path!
-|
-| 'sess_match_ip'
-|
-|	Whether to match the user's IP address when reading the session data.
-|
-| 'sess_time_to_update'
-|
-|	How many seconds between CI regenerating the session ID.
-|
-| 'sess_regenerate_destroy'
-|
-|	Whether to destroy session data associated with the old session ID
-|	when auto-regenerating the session ID. When set to FALSE, the data
-|	will be later deleted by the garbage collector.
+| 'sess_regenerate_destroy': Whether to destroy session data associated with the old session ID
+|	                         when auto-regenerating the session ID. When set to FALSE, the data
+|	                         will be later deleted by the garbage collector.
 |
 | Other session cookie settings are shared with the rest of the application,
 | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
@@ -390,29 +338,8 @@ $config['cookie_httponly'] 	= FALSE;
 |--------------------------------------------------------------------------
 | Standardize newlines
 |--------------------------------------------------------------------------
-|
-| Determines whether to standardize newline characters in input data,
-| meaning to replace \r\n, \r, \n occurences with the PHP_EOL value.
-|
-| This is particularly useful for portability between UNIX-based OSes,
-| (usually \n) and Windows (\r\n).
-|
 */
 $config['standardize_newlines'] = FALSE;
-
-/*
-|--------------------------------------------------------------------------
-| Global XSS Filtering
-|--------------------------------------------------------------------------
-|
-| Determines whether the XSS filter is always active when GET, POST or
-| COOKIE data is encountered
-|
-| WARNING: This feature is DEPRECATED and currently available only
-|          for backwards compatibility purposes!
-|
-*/
-$config['global_xss_filtering'] = FALSE;
 
 /*
 |--------------------------------------------------------------------------
@@ -421,15 +348,9 @@ $config['global_xss_filtering'] = FALSE;
 | Enables a CSRF cookie token to be set. When set to TRUE, token will be
 | checked on a submitted form. If you are accepting user data, it is strongly
 | recommended CSRF protection be enabled.
-|
-| 'csrf_token_name' = The token name
-| 'csrf_cookie_name' = The cookie name
-| 'csrf_expire' = The number in seconds the token should expire.
-| 'csrf_regenerate' = Regenerate token on every submission
-| 'csrf_exclude_uris' = Array of URIs which ignore CSRF checks
 */
-$config['csrf_protection'] = FALSE;
-$config['csrf_token_name'] = 'csrf_test_name';
+$config['csrf_protection'] = TRUE;
+$config['csrf_token_name'] = 'csrf_authentication_token';
 $config['csrf_cookie_name'] = 'csrf_cookie_name';
 $config['csrf_expire'] = 7200;
 $config['csrf_regenerate'] = TRUE;
@@ -461,12 +382,6 @@ $config['compress_output'] = FALSE;
 |--------------------------------------------------------------------------
 | Master Time Reference
 |--------------------------------------------------------------------------
-|
-| Options are 'local' or any PHP supported timezone. This preference tells
-| the system whether to use your server's local time as the master 'now'
-| reference, or convert it to the configured one timezone. See the 'date
-| helper' page of the user guide for information regarding date handling.
-|
 */
 $config['time_reference'] = 'local';
 
@@ -474,11 +389,6 @@ $config['time_reference'] = 'local';
 |--------------------------------------------------------------------------
 | Rewrite PHP Short Tags
 |--------------------------------------------------------------------------
-|
-| If your PHP installation does not have short tag support enabled CI
-| can rewrite the tags on-the-fly, enabling you to utilize that syntax
-| in your view files.  Options are TRUE or FALSE (boolean)
-|
 */
 $config['rewrite_short_tags'] = FALSE;
 
@@ -487,16 +397,5 @@ $config['rewrite_short_tags'] = FALSE;
 |--------------------------------------------------------------------------
 | Reverse Proxy IPs
 |--------------------------------------------------------------------------
-|
-| If your server is behind a reverse proxy, you must whitelist the proxy
-| IP addresses from which CodeIgniter should trust headers such as
-| HTTP_X_FORWARDED_FOR and HTTP_CLIENT_IP in order to properly identify
-| the visitor's IP address.
-|
-| You can use both an array or a comma-separated list of proxy addresses,
-| as well as specifying whole subnets. Here are a few examples:
-|
-| Comma-separated:	'10.0.1.200,192.168.5.0/24'
-| Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';

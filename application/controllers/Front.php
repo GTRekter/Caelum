@@ -53,8 +53,8 @@ class Front extends CI_Controller {
 		$this->load->view('front/nav', $data);
 		
 		// Products
-		$data['products'] = $this->frontmodel->ra_product('');
-		$data['photos'] = $this->frontmodel->ra_photo('');
+		//$data['products'] = $this->frontmodel->ra_product('');
+		//$data['photos'] = $this->frontmodel->ra_photo('');
 
 		$this->load->view('front/home', $data);
 		$this->load->view('front/footer');

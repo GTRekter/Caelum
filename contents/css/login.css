@@ -1,0 +1,72 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #e9eaec;
+}
+.img-center {
+    margin: 0 auto;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #cd0e16;
+    border-color: #cd0e16;
+}
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    color: #fff;
+    background-color: #9d0b11;
+    border-color: #940a10;
+}
+.form-signin {
+  max-width: 550px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#login-footer a {
+    color: #A0AAB5;
+    text-decoration: none;
+}
+a.link-social i {
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    line-height: 24px !important;
+    text-align: center;
+    margin: 0 4px 0 0;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+.link-youtube i {
+    color: #fff;
+    background-color: #cd201f;
+}
+.link-linkedin i {
+    color: #fff;
+    background-color: #0077b5;
+}
