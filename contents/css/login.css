@@ -1,6 +1,15 @@
+/*!
+ * Login Page 
+ * Author: Ivan Porta
+ * brand primary color: #0A53B2 (from old website)
+ * brand primary color: #0d47a1 (from material design)
+ * brand secondary color: #1565c0 (from material design)
+ * brand third color: #1976d2 (from material design)
+ */
+
+/* ===== GENERAL ===== */
 body {
   padding-top: 40px;
-  padding-bottom: 40px;
   background-color: #e9eaec;
 }
 .img-center {
@@ -8,27 +17,25 @@ body {
 }
 .btn-primary {
     color: #fff;
-    background-color: #cd0e16;
-    border-color: #cd0e16;
+    background-color: #0d47a1;
+    border-color: #0d47a1;
 }
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
     color: #fff;
-    background-color: #9d0b11;
-    border-color: #940a10;
+    background-color: #1976d2;
+    border-color: #1976d2;
 }
+
+/* ===== FORM SIGNIN ===== */
 .form-signin {
   max-width: 550px;
   padding: 15px;
   margin: 0 auto;
 }
-.form-signin .form-signin-heading,
-.form-signin .checkbox {
+.form-signin .form-signin-heading {
   margin-bottom: 10px;
-}
-.form-signin .checkbox {
-  font-weight: normal;
 }
 .form-signin .form-control {
   position: relative;

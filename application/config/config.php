@@ -8,13 +8,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Base Site URL
 |--------------------------------------------------------------------------
 */
-$config['base_url']     = 'http://localhost:8888/IbiscoBlu/';
-$config['server_root']  = $_SERVER['DOCUMENT_ROOT'];
-$config['contents_url'] = $config['base_url'] . '/contents';
-$config['contents_css'] = $config['contents_url'] . "/css";
-$config['contents_js']  = $config['contents_url'] . "/js";
-$config['contents_img'] = $config['contents_url'] . "/img";	
-$config['libraries_url']  = $config['contents_url'] . '/libraries';
+$config['base_url']      = 'http://localhost:8888/IbiscoBlu/';
+$config['server_root']   = $_SERVER['DOCUMENT_ROOT'];
+$config['contents_url']  = $config['base_url'] . '/contents';
+$config['contents_css']  = $config['contents_url'] . "/css";
+$config['contents_js']   = $config['contents_url'] . "/js";
+$config['contents_img']  = $config['contents_url'] . "/img";	
+$config['contents_font'] = $config['contents_url'] . "/fonts";	
+$config['libraries_url'] = $config['contents_url'] . '/libraries';
 
 /*
 |--------------------------------------------------------------------------
