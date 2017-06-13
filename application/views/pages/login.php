@@ -27,7 +27,7 @@
 		<![endif]-->
 	</head>
 	<body>
-		<div class="container hide" data-element-id="signin-box">
+		<div class="container hide" data-element-id="signin-box" data-app-base-url="<?php echo site_url(); ?>">
     		<div class="form-signin" role="form">
 
         		<div class="panel panel-default">
@@ -35,7 +35,7 @@
 						<div class="col-xs-12">
 							<img src="#" class="img-responsive img-center" />
                     		<hr />
-							<form action="<?php echo site_url('front/autenticate') ?>" autocomplete="off" class="form-horizontal" method="post">
+							<form action="<?php echo site_url('account/autenticate') ?>" class="form-horizontal" method="post">
 								<input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>" />                      
 								<div class="form-group">
                             		<label class="control-label hidden-xs hidden-sm"></label>
@@ -51,7 +51,7 @@
                         		</div>
 								<div class="form-group">
 									<div class="input-group">
-										<input class="form-control" name="UserName" type="text"
+										<input class="form-control" name="Username" type="text"
 											maxlength="50" placeholder="Username" required="required" autofocus/>
 										<span class="input-group-addon">
 											<i class="ion-person" aria-hidden="true"></i>
@@ -68,11 +68,8 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<button class="btn btn-lg btn-primary btn-block hide" type="submit" data-element-id="log-in-button">
-										<i class="fa fa-spinner fa-spin"><i class="fa fa-key"></i>&nbsp; Log in
-									</button>
-									<button class="btn btn-lg btn-primary btn-block disabled" type="button" data-element-id="log-in-button-disabled">
-										<i class="fa fa-spinner fa-spin"></i>&nbsp;Log in
+									<button class="btn btn-lg btn-primary btn-block" type="submit" data-element-id="login-button">
+										<i></i>&nbsp; Log in
 									</button>
 								</div>        
 							</form>

@@ -1,35 +1,34 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Back extends CI_Controller {
-	// Login Check
-	function __construct() {
-		parent::__construct();
-		$query = $this->is_logged_in();
-		
-		if ($query == false) {
-			$this->session->set_flashdata('message','Per accedere al Pannello Admin devi prima eseguire il login!');
-			redirect('front/login');
-		}
 
-		$this->load->model('backmodel');
-	}
-	function is_logged_in() {
-		$is_logged_in = $this->session->userdata('is_logged_in');
+	// Login Check
+	// function __construct() {
+	// 	parent::__construct();
+	// 	$query = $this->is_logged_in();
 		
-		if (!isset($is_logged_in) || $is_logged_in != true) {
-			return false;
-		} else {
-			return true;
-		}
-	}
-	function logout() {
-		$data = array('username', 'is_logged_in');
-		$this->session->unset_userdata($data);
+	// 	if ($query == false) {
+	// 		redirect('front/login');
+	// 	}
+	// 	$this->load->model('backmodel');
+	// }
+
+	// function is_logged_in() {
+	// 	$is_logged_in = $this->session->userdata('is_logged_in');
 		
-		$this->session->set_flashdata('message','Ciao, a presto!');
-		redirect('front/login');
-	}
+	// 	if (!isset($is_logged_in) || $is_logged_in != true) {
+	// 		return false;
+	// 	} else {
+	// 		return true;
+	// 	}
+	// }
+	// function logout() {
+	// 	$data = array('username', 'is_logged_in');
+	// 	$this->session->unset_userdata($data);
+		
+	// 	$this->session->set_flashdata('message','Ciao, a presto!');
+	// 	redirect('front/login');
+	// }
 	// End Login Check
 	
 	// PRESENTATION
@@ -39,8 +38,8 @@ class Back extends CI_Controller {
 		$this->load->view('header',$data);
 		$this->load->view('nav');
 		
-		$data['products'] = $this->backmodel->ra_product('');
-		$data['photos'] = $this->backmodel->ra_photo('');
+		// $data['products'] = $this->backmodel->ra_product('');
+		// $data['photos'] = $this->backmodel->ra_photo('');
 		
 		$this->load->view('home',$data);
 		$this->load->view('footer',$data);

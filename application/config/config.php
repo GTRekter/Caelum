@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Base Site URL
 |--------------------------------------------------------------------------
 */
-$config['base_url']      = 'http://localhost:8888/IbiscoBlu/';
+$config['base_url']      = 'http://localhost:9000/IbiscoBlu/';
 $config['server_root']   = $_SERVER['DOCUMENT_ROOT'];
 $config['contents_url']  = $config['base_url'] . '/contents';
 $config['contents_css']  = $config['contents_url'] . "/css";
@@ -59,7 +59,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= '';
+$config['language']	= 'english';
 
 /*
 |--------------------------------------------------------------------------
@@ -133,10 +133,7 @@ $config['directory_trigger'] = 'd';
 | Error Logging Threshold
 |--------------------------------------------------------------------------
 |
-| If you have enabled error logging, you can set an error threshold to
-| determine what gets logged. Threshold options are:
-| You can enable error logging by setting a threshold over zero. The
-| threshold determines what gets logged. Threshold options are:
+| Threshold options are:
 |
 |	0 = Disables logging, Error logging TURNED OFF
 |	1 = Error Messages (including PHP errors)
@@ -144,15 +141,8 @@ $config['directory_trigger'] = 'd';
 |	3 = Informational Messages
 |	4 = All Messages
 |
-| You can also pass an array with threshold levels to show individual error types
-|
-| 	array(2) = Debug Messages, without Error Messages
-|
-| For a live site you'll usually only enable Errors (1) to be logged otherwise
-| your log files will fill up very fast.
-|
 */
-$config['log_threshold'] = 0;
+$config['log_threshold'] = 2;
 
 /*
 |--------------------------------------------------------------------------
@@ -173,7 +163,7 @@ $config['log_path'] = '';
 | Note: Leaving it blank will default to 'php'.
 |
 */
-$config['log_file_extension'] = '';
+$config['log_file_extension'] = 'txt';
 
 /*
 |--------------------------------------------------------------------------
