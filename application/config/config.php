@@ -13,7 +13,7 @@ $config['server_root']   = $_SERVER['DOCUMENT_ROOT'];
 $config['contents_url']  = $config['base_url'] . '/contents';
 $config['contents_css']  = $config['contents_url'] . "/css";
 $config['contents_js']   = $config['contents_url'] . "/js";
-$config['contents_img']  = $config['contents_url'] . "/img";	
+$config['contents_img']  = $config['contents_url'] . "/images";	
 $config['contents_font'] = $config['contents_url'] . "/fonts";	
 $config['libraries_url'] = $config['contents_url'] . '/libraries';
 

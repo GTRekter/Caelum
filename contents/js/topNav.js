@@ -22,7 +22,8 @@
 			$BODY.toggleClass('nav-md nav-sm');
 
 			setContentHeight();
-
-			$('.dataTable').each ( function () { $(this).dataTable().fnDraw(); });
 		});
+
+	
 })();
+
