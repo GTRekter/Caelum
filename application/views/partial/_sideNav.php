@@ -3,42 +3,38 @@
 <link href="<?php echo $this->config->item('contents_css'); ?>/sideNav.css" rel="stylesheet" />  
 
 <!-- START Nav Navbar-->
-<div class="col-md-3 left_col">
-    <div class="left_col scroll-view">
-        <div class="navbar nav_title" style="border: 0;">
-            <a href="index.html" class="site_title">
+<div data-element-id="side-navbar">
+    <div>
+
+        <div class="navbar title">
+            <a href="#">
                 <i class="ion-ios-paw"></i> 
                 <span>Surname Name</span>
             </a>
         </div>
 
-        <div class="clearfix"></div>
-
-        <!-- menu profile quick info -->
-        <div class="profile clearfix">
-            <div class="profile_pic">
-                <img src="<?php echo $this->config->item('contents_img'); ?>/img.jpg" alt="..." class="img-circle profile_img">
+        <div class="navbar profile">
+            <div class="picture">
+                <img src="<?php echo $this->config->item('contents_img'); ?>/img.jpg" alt="..." class="img-circle">
             </div>
-            <div class="profile_info">
+            <div class="info">
                 <span>Welcome,</span>
                 <h2>John Doe</h2>
             </div>
         </div>
-        <!-- /menu profile quick info -->
 
-        <br />
+        <div class="clearfix"></div>
 
-        <!-- sidebar menu -->
-        <div id="sidebar-menu" class="main_menu_side hidden-print main_menu" data-element-id="side-bar">
-            <div class="menu_section">
+        <div class="navbar side-navbar">
+            <div class="section">
                 <h3>General</h3>
-                <ul class="nav side-menu">
+                <ul class="nav">
                     <li>
                         <a>
                             <i class="ion-ios-home"></i> Home 
-                            <i class="ion-chevron-down pull-right"></i>
+                            <i class="ion-chevron-down pull-right hidden-close"></i>
                         </a>
-                        <ul class="nav child_menu">
+                        <ul class="nav">
                             <li>
                                 <a href="index.html">Dashboard</a>
                             </li>
@@ -53,9 +49,9 @@
                     <li>
                         <a>
                             <i class="ion-ios-home"></i> Home 
-                            <i class="ion-chevron-down pull-right"></i>
+                            <i class="ion-chevron-down pull-right hidden-close"></i>
                         </a>
-                        <ul class="nav child_menu">
+                        <ul class="nav">
                             <li>
                                 <a href="index.html">Dashboard</a>
                             </li>
@@ -70,9 +66,9 @@
                     <li>
                         <a>
                             <i class="ion-ios-home"></i> Home 
-                            <i class="ion-chevron-down pull-right"></i>
+                            <i class="ion-chevron-down pull-right hidden-close"></i>
                         </a>
-                        <ul class="nav child_menu">
+                        <ul class="nav">
                             <li>
                                 <a href="index.html">Dashboard</a>
                             </li>
@@ -86,15 +82,15 @@
                     </li>
                 </ul>
             </div>
-            <div class="menu_section">
+            <div class="section">
                 <h3>Live On</h3>
-                <ul class="nav side-menu">
+                <ul class="nav">
                     <li>
                         <a>
                             <i class="ion-ios-home"></i> Home 
-                            <i class="ion-chevron-down pull-right"></i>
+                            <i class="ion-chevron-down pull-right hidden-close"></i>
                         </a>
-                        <ul class="nav child_menu">
+                        <ul class="nav">
                             <li>
                                 <a href="index.html">Dashboard</a>
                             </li>
@@ -109,9 +105,9 @@
                     <li>
                         <a>
                             <i class="ion-ios-home"></i> Home 
-                            <i class="ion-chevron-down pull-right"></i>
+                            <i class="ion-chevron-down pull-right hidden-close"></i>
                         </a>
-                        <ul class="nav child_menu">
+                        <ul class="nav">
                             <li>
                                 <a href="index.html">Dashboard</a>
                             </li>
@@ -132,9 +128,7 @@
                 </ul>
             </div>
         </div>
-        <!-- /sidebar menu -->
 
-        <!-- /menu footer buttons -->
         <div class="sidebar-footer hidden-small">
             <a data-toggle="tooltip" data-placement="top" title="Settings">
                 <i class="ion-ios-gear-outline" aria-hidden="true"></i>
@@ -149,7 +143,7 @@
                 <i class="ion-power" aria-hidden="true"></i>
             </a>
         </div>
-        <!-- /menu footer buttons -->
+
     </div>
 </div>
 <!-- END Nav Navbar-->

@@ -1,16 +1,21 @@
-var CURRENT_URL = window.location.href.split('#')[0].split('?')[0],
-    $BODY = $('body'),
-    $MENU_TOGGLE = $('#menu_toggle'),
-    $SIDEBAR_MENU = $('#sidebar-menu'),
-    $SIDEBAR_FOOTER = $('.sidebar-footer'),
-    $LEFT_COL = $('.left_col'),
-    $RIGHT_COL = $('.right_col'),
-    $NAV_MENU = $('.nav_menu'),
-    $FOOTER = $('footer');
-    
-  $SIDEBAR_MENU.find('a').on('click', function(ev) {
-	  console.log('clicked - sidebar_menu');
+(function(window) { 'use strict';
 
+	/* ==== START: GLOBAL ==== */
+
+    var $BODY = $('body'),
+        $MENU_TOGGLE = $('#menu_toggle'),
+        $SIDEBAR_MENU = $('[data-element-id="side-navbar"]'),
+        $SIDEBAR_FOOTER = $('.sidebar-footer'),
+        $LEFT_COL = $('.left_col'),
+        $RIGHT_COL = $('.right_col'),
+        $NAV_MENU = $('.nav_menu'),
+        $FOOTER = $('footer');
+
+    /* ==== END: GLOBAL ==== */
+
+    /* ==== START: EVENTS ==== */
+
+    $SIDEBAR_MENU.find('a').on('click', function(ev) {
         var $li = $(this).parent();
 
         if ($li.is('.active')) {
@@ -23,14 +28,13 @@ var CURRENT_URL = window.location.href.split('#')[0].split('?')[0],
             if (!$li.parent().is('.child_menu')) {
                 $SIDEBAR_MENU.find('li').removeClass('active active-sm');
                 $SIDEBAR_MENU.find('li ul').slideUp();
-            }else
-            {
-				if ( $BODY.is( ".nav-sm" ) )
-				{
-					$SIDEBAR_MENU.find( "li" ).removeClass( "active active-sm" );
-					$SIDEBAR_MENU.find( "li ul" ).slideUp();
-				}
-			}
+            } else {
+                if ( $BODY.is( ".nav-sm" ) )
+                {
+                    $SIDEBAR_MENU.find( "li" ).removeClass( "active active-sm" );
+                    $SIDEBAR_MENU.find( "li ul" ).slideUp();
+                }
+            }
             $li.addClass('active');
 
             $('ul:first', $li).slideDown(function() {
@@ -38,6 +42,8 @@ var CURRENT_URL = window.location.href.split('#')[0].split('?')[0],
             });
         }
     });
+
+    /* ==== END: EVENTS ==== */
 
     var setContentHeight = function () {
         // reset height
@@ -53,3 +59,5 @@ var CURRENT_URL = window.location.href.split('#')[0].split('?')[0],
 
         $RIGHT_COL.css('min-height', contentHeight);
     };
+
+})();

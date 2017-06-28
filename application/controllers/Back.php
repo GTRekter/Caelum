@@ -2,7 +2,6 @@
 
 class Back extends CI_Controller {
 
-	// PRESENTATION
 	public function index() {
 		$data['page'] = 'index';
 		

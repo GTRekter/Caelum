@@ -21,7 +21,7 @@
 		<script src="<?php echo $this->config->item('libraries_url'); ?>/jquery/js/jquery-3.2.1.min.js"></script>
 	</head>
 
-	<body class="nav-md">
+	<body>
 		<div class="container body">
 			<div class="main_container">
 				<?php echo $sideNav; ?>
@@ -31,6 +31,6 @@
 		</div>
 		<script src="<?php echo $this->config->item('libraries_url'); ?>/angularjs/js/angular.js"></script>
 		<script src="<?php echo $this->config->item('libraries_url'); ?>/angularjs/js/angular-animate.js"></script>
-        <script src="<?php echo $this->config->item('libraries_url'); ?>/bootstrap/js/bootstrap.min.js" type="text/jaascript"></script>
+        <script src="<?php echo $this->config->item('libraries_url'); ?>/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>

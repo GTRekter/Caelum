@@ -1,29 +1,24 @@
-( function( global, factory ) {
+(function(window) { 'use strict';
 
-	"use strict";
-	var $BODY = $('body'),
-		// $MENU_TOGGLE = $('[data-element-id="toggle"]'),
-		$MENU_TOGGLE = $('#menu_toggle'),
-		$SIDEBAR_MENU = $('[data-element-id="side-bar"]');
-			
-		// toggle small or large menu 
-		$MENU_TOGGLE.on('click', function() {
+	/* ==== START: GLOBAL ==== */
 
-				console.log('clicked - menu toggle');
-				
-				if ($BODY.hasClass('nav-md')) {
-					$SIDEBAR_MENU.find('li.active ul').hide();
-					$SIDEBAR_MENU.find('li.active').addClass('active-sm').removeClass('active');
-				} else {
-					$SIDEBAR_MENU.find('li.active-sm ul').show();
-					$SIDEBAR_MENU.find('li.active-sm').addClass('active').removeClass('active-sm');
-				}
+	var $NAVBAR_TOP = $('[data-element-id="top-navbar"]'),
+		$MENU_TOGGLE = $('[data-element-id="toggle"]'),
+		$SIDEBAR = $('[data-element-id="side-navbar"]');
 
-			$BODY.toggleClass('nav-md nav-sm');
+	/* ==== END: GLOBAL ==== */
 
-			setContentHeight();
-		});
+	/* ==== START: EVENTS ==== */
 
+	$MENU_TOGGLE.on('click', function() {
+		
+		$SIDEBAR.toggleClass('collapsed');
+		$NAVBAR_TOP.toggleClass('open');
+
+		setContentHeight();
+	});
 	
+	/* ==== END: EVENTS ==== */
+
 })();
 
