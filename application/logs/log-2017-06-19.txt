@@ -1,0 +1,150 @@
+DEBUG - 2017-06-19 20:33:56 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:33:56 --> No URI present. Default controller set.
+DEBUG - 2017-06-19 20:33:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:33:56 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-19 20:33:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-19 20:33:56 --> Total execution time: 0.1311
+DEBUG - 2017-06-19 20:33:56 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:33:56 --> No URI present. Default controller set.
+DEBUG - 2017-06-19 20:33:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:33:57 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-19 20:33:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-19 20:33:57 --> Total execution time: 0.0803
+DEBUG - 2017-06-19 20:34:01 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:34:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:34:01 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-19 20:34:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-19 20:34:01 --> [Autenticate] Start
+DEBUG - 2017-06-19 20:34:01 --> [Autenticate] Username: i.porta1
+DEBUG - 2017-06-19 20:34:01 --> [Autenticate] Password: i.porta1
+DEBUG - 2017-06-19 20:34:01 --> [Validate] Start
+DEBUG - 2017-06-19 20:34:01 --> [Validate] username: i.porta1
+DEBUG - 2017-06-19 20:34:01 --> [Validate] password: i.porta1
+DEBUG - 2017-06-19 20:34:01 --> [Validate] End
+ERROR - 2017-06-19 20:34:01 --> Severity: Notice --> Array to string conversion C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\application\controllers\Account.php 24
+DEBUG - 2017-06-19 20:34:01 --> [Autenticate] Query: Array
+DEBUG - 2017-06-19 20:34:01 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:34:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:34:02 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-19 20:34:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-19 20:34:02 --> Total execution time: 0.0596
+DEBUG - 2017-06-19 20:34:02 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:34:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-19 20:34:02 --> UTF-8 Support Enabled
+ERROR - 2017-06-19 20:34:02 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:34:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-19 20:34:02 --> UTF-8 Support Enabled
+ERROR - 2017-06-19 20:34:02 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:34:02 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:34:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-19 20:34:02 --> UTF-8 Support Enabled
+ERROR - 2017-06-19 20:34:02 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:34:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:34:02 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:34:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:34:02 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:34:10 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:34:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:34:10 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-19 20:34:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-19 20:34:10 --> Total execution time: 0.0579
+DEBUG - 2017-06-19 20:34:10 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:34:10 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-19 20:34:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:34:10 --> 404 Page Not Found: Demo/img
+ERROR - 2017-06-19 20:34:10 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:34:10 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-19 20:34:10 --> UTF-8 Support Enabled
+ERROR - 2017-06-19 20:34:10 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:34:10 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-19 20:34:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:34:10 --> 404 Page Not Found: Demo/img
+ERROR - 2017-06-19 20:34:10 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:35:44 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:35:44 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:35:44 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-19 20:35:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-19 20:35:44 --> Total execution time: 0.0565
+DEBUG - 2017-06-19 20:35:45 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:35:45 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:35:45 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:35:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-19 20:35:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-19 20:35:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:35:45 --> 404 Page Not Found: Demo/img
+ERROR - 2017-06-19 20:35:45 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:35:45 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:35:45 --> UTF-8 Support Enabled
+ERROR - 2017-06-19 20:35:45 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:35:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-19 20:35:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:35:45 --> 404 Page Not Found: Demo/img
+ERROR - 2017-06-19 20:35:45 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:35:54 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:35:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:35:54 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-19 20:35:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-19 20:35:54 --> Total execution time: 0.0567
+DEBUG - 2017-06-19 20:35:54 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:35:54 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:35:54 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:35:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:35:54 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:35:54 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:35:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:35:54 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:35:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-19 20:35:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:35:54 --> 404 Page Not Found: Demo/img
+ERROR - 2017-06-19 20:35:54 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:35:54 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:35:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:35:54 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:36:23 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:36:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:36:23 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-19 20:36:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-19 20:36:23 --> Total execution time: 0.0541
+DEBUG - 2017-06-19 20:36:23 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:36:23 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:36:23 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:36:23 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:36:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-19 20:36:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-19 20:36:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:36:23 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:36:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:36:23 --> 404 Page Not Found: Demo/img
+ERROR - 2017-06-19 20:36:24 --> 404 Page Not Found: Demo/img
+ERROR - 2017-06-19 20:36:24 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:36:24 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:36:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:36:24 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:37:29 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:37:29 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:37:29 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-19 20:37:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-19 20:37:29 --> Total execution time: 0.0661
+DEBUG - 2017-06-19 20:37:30 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:37:30 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:37:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-06-19 20:37:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:37:30 --> 404 Page Not Found: Demo/img
+ERROR - 2017-06-19 20:37:30 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:37:30 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:37:30 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:37:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:37:30 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:37:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:37:30 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 20:37:30 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 20:37:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 20:37:30 --> 404 Page Not Found: Demo/img
+DEBUG - 2017-06-19 21:07:55 --> UTF-8 Support Enabled
+DEBUG - 2017-06-19 21:07:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-19 21:07:55 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-19 21:07:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-19 21:07:55 --> Total execution time: 0.1052

@@ -1,0 +1,157 @@
+DEBUG - 2017-06-24 16:19:10 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:19:10 --> No URI present. Default controller set.
+DEBUG - 2017-06-24 16:19:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:19:10 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 16:19:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 16:19:11 --> Total execution time: 0.1498
+DEBUG - 2017-06-24 16:19:11 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:19:11 --> No URI present. Default controller set.
+DEBUG - 2017-06-24 16:19:11 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:19:11 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 16:19:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 16:19:11 --> Total execution time: 0.0637
+DEBUG - 2017-06-24 16:19:11 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:19:11 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:19:11 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 16:19:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 16:19:11 --> Total execution time: 0.0706
+DEBUG - 2017-06-24 16:19:13 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:19:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:19:13 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 16:19:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 16:19:13 --> [Autenticate] Start
+DEBUG - 2017-06-24 16:19:13 --> [Autenticate] Username: i.porta1
+DEBUG - 2017-06-24 16:19:13 --> [Autenticate] Password: i.porta1
+DEBUG - 2017-06-24 16:19:13 --> [Validate] Start
+DEBUG - 2017-06-24 16:19:13 --> [Validate] username: i.porta1
+DEBUG - 2017-06-24 16:19:13 --> [Validate] password: i.porta1
+DEBUG - 2017-06-24 16:19:13 --> [Validate] End
+DEBUG - 2017-06-24 16:19:13 --> [Autenticate] Query: Array
+DEBUG - 2017-06-24 16:19:13 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:19:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:19:13 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 16:19:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 16:19:13 --> Total execution time: 0.0528
+DEBUG - 2017-06-24 16:23:19 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:23:19 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:23:19 --> 404 Page Not Found: Indexhtml/index
+DEBUG - 2017-06-24 16:23:20 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:23:20 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:23:20 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 16:23:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 16:23:20 --> Total execution time: 0.0993
+DEBUG - 2017-06-24 16:23:23 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:23:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:23:24 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 16:23:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 16:23:24 --> Total execution time: 0.0565
+DEBUG - 2017-06-24 16:28:27 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:28:27 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:28:27 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 16:28:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 16:28:28 --> Total execution time: 0.2175
+DEBUG - 2017-06-24 16:31:06 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:31:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:31:06 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 16:31:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 16:31:06 --> Total execution time: 0.1114
+DEBUG - 2017-06-24 16:48:22 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:48:22 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:48:22 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 16:48:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 16:48:22 --> Total execution time: 0.1151
+DEBUG - 2017-06-24 16:48:40 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:48:40 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:48:40 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 16:48:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 16:48:40 --> Total execution time: 0.1232
+DEBUG - 2017-06-24 16:49:14 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:49:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:49:14 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 16:49:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 16:49:14 --> Total execution time: 0.1035
+DEBUG - 2017-06-24 16:54:32 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 16:54:32 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 16:54:32 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 16:54:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 16:54:32 --> Total execution time: 0.1176
+DEBUG - 2017-06-24 17:02:35 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:02:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:02:36 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:02:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:02:36 --> Total execution time: 2.6675
+DEBUG - 2017-06-24 17:28:29 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:28:29 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:28:30 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:28:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:28:30 --> Total execution time: 0.2829
+DEBUG - 2017-06-24 17:31:10 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:31:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:31:10 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:31:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:31:10 --> Total execution time: 0.1511
+DEBUG - 2017-06-24 17:31:45 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:31:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:31:45 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:31:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:31:45 --> Total execution time: 0.2392
+DEBUG - 2017-06-24 17:34:07 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:34:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:34:08 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:34:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:34:08 --> Total execution time: 0.1825
+DEBUG - 2017-06-24 17:35:06 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:35:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:35:06 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:35:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:35:06 --> Total execution time: 0.2042
+DEBUG - 2017-06-24 17:38:28 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:38:29 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:38:29 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:38:29 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:38:29 --> Total execution time: 1.8520
+DEBUG - 2017-06-24 17:39:59 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:39:59 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:39:59 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:39:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:39:59 --> Total execution time: 0.1618
+DEBUG - 2017-06-24 17:40:44 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:40:44 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:40:44 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:40:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:40:44 --> Total execution time: 0.1434
+DEBUG - 2017-06-24 17:42:40 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:42:40 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:42:40 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:42:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:42:40 --> Total execution time: 0.1557
+DEBUG - 2017-06-24 17:46:04 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:46:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:46:04 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:46:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:46:04 --> Total execution time: 0.2014
+DEBUG - 2017-06-24 17:46:23 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:46:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:46:23 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:46:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:46:23 --> Total execution time: 0.2173
+DEBUG - 2017-06-24 17:48:45 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:48:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:48:45 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:48:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:48:45 --> Total execution time: 0.0961
+DEBUG - 2017-06-24 17:49:08 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:49:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:49:08 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:49:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:49:08 --> Total execution time: 0.1459
+DEBUG - 2017-06-24 17:50:40 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:50:40 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:50:40 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:50:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:50:40 --> Total execution time: 0.1160
+DEBUG - 2017-06-24 17:51:05 --> UTF-8 Support Enabled
+DEBUG - 2017-06-24 17:51:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2017-06-24 17:51:05 --> Severity: Warning --> mysqli::real_connect(): Headers and client library minor version mismatch. Headers:50541 Library:50634 C:\Users\ivanp\Documents\Visual Studio 2017\Projects\IbiscoBlu\system\database\drivers\mysqli\mysqli_driver.php 201
+DEBUG - 2017-06-24 17:51:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2017-06-24 17:51:05 --> Total execution time: 0.1377
