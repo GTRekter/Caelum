@@ -1,5 +1,5 @@
 /**
- * @author  	Jhon Porta
+ * @author  	Ivan Porta
  * @copyright 	Copyright (c) 2015.
  * @license  	GLP
  * @since  		Version 1.0
@@ -7,7 +7,9 @@
  */
 /* ------------------------------------------------------------------------ */
 
-.nav-md .container.body .col-md-3.left_col {
+/* ==== FONTS ==== */
+
+.container.body .left_col {
     min-height: 100%;
     width: 230px;
     padding: 0;
@@ -16,24 +18,21 @@
     display: flex;
     z-index: 1
 }
-.nav-md .container.body .col-md-3.left_col.menu_fixed {
-    height: 100%;
-    position: fixed
-}
-.nav-md .container.body .right_col {
+.container.body .right_col {
     padding: 10px 20px 0;
     margin-left: 230px
 }
+
 @media (max-width: 991px) {
-    .nav-md .container.body .right_col,
-    .nav-md .container.body .top_nav {
+    .container.body .right_col,
+    .container.body .top_nav {
         width: 100%;
         margin: 0
     }
-    .nav-md .container.body .col-md-3.left_col {
+    .container.body .left_col {
         display: none
     }
-    .nav-md .container.body .right_col {
+    .container.body .right_col {
         width: 100%;
         padding-right: 0
     }

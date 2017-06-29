@@ -15,7 +15,6 @@
 		$SIDEBAR.toggleClass('collapsed');
 		$NAVBAR_TOP.toggleClass('open');
 
-		setContentHeight();
 	});
 	
 	/* ==== END: EVENTS ==== */

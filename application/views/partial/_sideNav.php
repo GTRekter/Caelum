@@ -2,7 +2,7 @@
 
 <link href="<?php echo $this->config->item('contents_css'); ?>/sideNav.css" rel="stylesheet" />  
 
-<!-- START Nav Navbar-->
+<!-- START: Side-navbar -->
 <div data-element-id="side-navbar">
     <div>
 
@@ -146,6 +146,6 @@
 
     </div>
 </div>
-<!-- END Nav Navbar-->
+<!-- END: Side-navbar-->
 
 <script src="<?php echo $this->config->item('contents_js'); ?>/sideNav.js" type="text/javascript"></script>

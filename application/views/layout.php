@@ -11,8 +11,8 @@
 	
 	    <title>Ibisco Blu - Administration Console</title>
 	
-		<link href="<?php echo $this->config->item('libraries_url'); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet" />  
-		<link href="<?php echo $this->config->item('contents_font'); ?>/ionicons/css/ionicons.min.css" rel="stylesheet" />	
+		<link href="<?php echo $this->config->item('libraries_url'); ?>/bootstrap/css/bootstrap.css" rel="stylesheet" />  
+		<link href="<?php echo $this->config->item('contents_font'); ?>/ionicons/css/ionicons.css" rel="stylesheet" />	
 		<link href="<?php echo $this->config->item('contents_css'); ?>/general.css" rel="stylesheet" />  
 	    <!--[if lt IE 9]>
 	        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -24,13 +24,19 @@
 	<body>
 		<div class="container body">
 			<div class="main_container">
+
 				<?php echo $sideNav; ?>
 				<?php echo $topNav; ?>
-				<?php echo $home; ?>
+
+				<div class="right_col">
+					<?php echo $topTiles; ?>
+					<?php echo $activities; ?>
+				</div>
+
 			</div>
 		</div>
 		<script src="<?php echo $this->config->item('libraries_url'); ?>/angularjs/js/angular.js"></script>
 		<script src="<?php echo $this->config->item('libraries_url'); ?>/angularjs/js/angular-animate.js"></script>
-        <script src="<?php echo $this->config->item('libraries_url'); ?>/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="<?php echo $this->config->item('libraries_url'); ?>/bootstrap/js/bootstrap.js" type="text/javascript"></script>
     </body>
 </html>
