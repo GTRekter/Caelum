@@ -1,0 +1,53 @@
+/**
+ * @author  	Ivan Porta
+ * @copyright 	Copyright (c) 2015.
+ * @license  	GLP
+ * @since  		Version 1.0
+ * @version  	1.0
+ */
+/* ------------------------------------------------------------------------ */
+
+[data-element-id="charts"] {
+    background: #fff;
+    padding: 7px 10px;
+}
+[data-element-id="charts"] .title {
+    padding: 5px 7px 7px;
+    border-bottom: 2px solid #E6E9ED;
+    margin: 0px -10px 10px -10px;
+}
+[data-element-id="charts"] .title h3 {
+    margin: 0;
+    font-weight: 400;
+}
+[data-element-id="charts"] .title h2 {
+    margin: 5px 0 6px;
+    float: left;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 400;
+}
+[data-element-id="charts"] .progress {
+    border-radius: 0;
+    margin-bottom: 18px;
+    height: 10px !important
+}
+[data-element-id="charts"] .progress .progress-bar {
+    height: 10px !important
+}
+
+.progress-bar-info {
+    background-color: #3498DB
+}
+.progress-bar-success {
+    background-color: #26B99A
+}
+
+@media (max-width: 1200px) {
+    [data-element-id="charts"] h2 {
+        width: 62%;
+        font-size: 17px
+    }
+}

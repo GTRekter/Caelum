@@ -7,47 +7,202 @@
  */
 /* ------------------------------------------------------------------------ */
 
-[data-element-id="activities"] {
+.x_panel {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 17px;
+    display: inline-block;
     background: #fff;
-    padding: 7px 10px;
+    border: 1px solid #E6E9ED;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    opacity: 1;
+    transition: all .2s ease
 }
-[data-element-id="activities"] .title {
-    padding: 5px 7px 7px;
+
+.x_title {
     border-bottom: 2px solid #E6E9ED;
-    margin: 0px -10px 10px -10px;
+    padding: 1px 5px 6px;
+    margin-bottom: 10px
 }
-[data-element-id="activities"] .title h3 {
-    margin: 0;
-    font-weight: 400;
+.x_title .filter {
+    width: 40%;
+    float: right
 }
-[data-element-id="activities"] .charts .title h2 {
+.x_title h2 {
     margin: 5px 0 6px;
     float: left;
     display: block;
     text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 18px;
-    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap
 }
-[data-element-id="activities"] .progress {
-    border-radius: 0;
-    margin-bottom: 18px;
-    height: 10px !important
+.x_title h2 small {
+    margin-left: 10px
 }
-[data-element-id="activities"] .progress .progress-bar {
-    height: 10px !important
-}
-
-.progress-bar-info {
-    background-color: #3498DB
-}
-.progress-bar-success {
-    background-color: #26B99A
+.x_title span {
+    color: #BDBDBD
 }
 
 @media (max-width: 1200px) {
-    [data-element-id="activities"] h2 {
+    .x_title h2 {
         width: 62%;
         font-size: 17px
     }
+    .tile,
+    .graph {
+        zoom: 85%;
+        height: inherit
+    }
+}
+@media (max-width: 1270px) and (min-width: 192px) {
+    .x_title h2 small {
+        display: none
+    }
+}
+
+
+.x_content {
+    padding: 0 5px 6px;
+    position: relative;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-top: 5px
+}
+.x_content h4 {
+    font-size: 16px;
+    font-weight: 500
+}
+
+.dashboard-widget-content {
+    padding-top: 9px
+}
+.dashboard-widget-content .sidebar-widget {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    background: #fff;
+    border: 1px solid #abd9ea;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+    padding: 2px;
+    margin-top: 10px
+}
+
+
+
+ul.timeline li {
+    position: relative;
+    border-bottom: 1px solid #e8e8e8;
+    clear: both
+}
+.timeline .block {
+    margin: 0;
+    border-left: 3px solid #e8e8e8;
+    overflow: visible;
+    padding: 10px 15px;
+    margin-left: 105px
+}
+.timeline.widget {
+    min-width: 0;
+    max-width: inherit
+}
+.timeline.widget .block {
+    margin-left: 5px
+}
+.timeline .tags {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 84px
+}
+.timeline .tag {
+    display: block;
+    height: 30px;
+    font-size: 13px;
+    padding: 8px
+}
+.timeline .tag span {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.timeline h2.title {
+    position: relative;
+    font-size: 16px;
+    margin: 0
+}
+.timeline h2.title:before {
+    content: "";
+    position: absolute;
+    left: -23px;
+    top: 3px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 3px solid #d2d3d2;
+    border-radius: 14px;
+    background: #f9f9f9
+}
+.timeline .byline {
+    padding: .25em 0
+}
+
+
+.widget {
+    min-width: 250px;
+    max-width: 310px
+}
+.widget .verticle_bars li .progress.vertical.progress_wide {
+    width: 65%
+}
+.timeline.widget {
+    min-width: 0;
+    max-width: inherit
+}
+.timeline.widget .block {
+    margin-left: 5px
+}
+.timeline .block {
+    margin: 0;
+    border-left: 3px solid #e8e8e8;
+    overflow: visible;
+    padding: 10px 15px;
+    margin-left: 105px
+}
+.timeline.widget .block {
+    margin-left: 5px
+}
+.timeline h2.title {
+    position: relative;
+    font-size: 16px;
+    margin: 0
+}
+.timeline h2.title:before {
+    content: "";
+    position: absolute;
+    left: -23px;
+    top: 3px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 3px solid #d2d3d2;
+    border-radius: 14px;
+    background: #f9f9f9
+}
+.timeline .byline {
+    padding: .25em 0
+}
+.byline {
+    -webkit-font-smoothing: antialiased;
+    font-style: italic;
+    font-size: .9375em;
+    line-height: 1.3;
+    color: #aab6aa
 }

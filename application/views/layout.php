@@ -29,8 +29,19 @@
 				<?php echo $topNav; ?>
 
 				<div class="right_col">
+					
 					<?php echo $topTiles; ?>
-					<?php echo $activities; ?>
+
+					<div class="row">
+    					<div class="col-md-12 col-sm-12 col-xs-12">
+							<?php echo $charts; ?>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<?php echo $activities; ?>
+						</div>
+					</div>
 				</div>
 
 			</div>

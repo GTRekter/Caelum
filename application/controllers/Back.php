@@ -8,7 +8,7 @@ class Back extends CI_Controller {
 		$data['topNav'] = $this->load->view('partial/_topNav',NULL, TRUE);
 		$data['sideNav'] = $this->load->view('partial/_sideNav', NULL, TRUE);
 		$data['topTiles'] = $this->load->view('partial/_topTiles', NULL, TRUE);
-		$data['activities'] = $this->load->view('partial/_activities', NULL, TRUE);
+		$data['charts'] = $this->load->view('partial/_charts', NULL, TRUE);
    		
 		$this->load->view('layout', $data);
 	}
