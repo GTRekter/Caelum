@@ -30,18 +30,43 @@
 
 				<div class="right_col">
 					
-					<?php echo $topTiles; ?>
-
+					<!-- DASHBOARD -->
+					<!--
+					<-?php echo $topTiles; ?>
 					<div class="row">
     					<div class="col-md-12 col-sm-12 col-xs-12">
-							<?php echo $charts; ?>
+							<-?php echo $charts; ?>
 						</div>
 					</div>
+					<br/>
 					<div class="row">
-						<div class="col-md-4 col-sm-4 col-xs-12">
-							<?php echo $activities; ?>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<-?php echo $activities; ?>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<-?php echo $toDoList; ?>
 						</div>
 					</div>
+					-->
+
+					<!-- LIST -->
+					<!--
+					<-?php echo $topTitle; ?>
+					<div class="row">
+						<div class="col-md-12">
+							<-?php echo $list; ?>
+						</div>
+					</div>	
+					-->			
+
+					<!-- DETAILS -->
+					<?php echo $topTitle; ?>
+					<div class="row">
+						<div class="col-md-12">
+							<?php echo $details; ?>
+						</div>
+					</div>		
+
 				</div>
 
 			</div>

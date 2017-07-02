@@ -1,0 +1,27 @@
+/**
+ * @author  	Ivan Porta
+ * @copyright 	Copyright (c) 2015.
+ * @license  	GLP
+ * @since  		Version 1.0
+ * @version  	1.0
+ */
+/* ------------------------------------------------------------------------ */
+
+.projects .list-inline {
+    margin: 0
+}
+.avatar img {
+    border-radius: 50%;
+    max-width: 45px
+}
+
+img.avatar {
+    height: 32px;
+    width: 32px;
+    float: left;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 2px;
+    background: #f7f7f7;
+    border: 1px solid #e6e6e6
+}

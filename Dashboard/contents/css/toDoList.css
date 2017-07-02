@@ -1,0 +1,22 @@
+/**
+ * @author  	Ivan Porta
+ * @copyright 	Copyright (c) 2015.
+ * @license  	GLP
+ * @since  		Version 1.0
+ * @version  	1.0
+ */
+/* ------------------------------------------------------------------------ */
+[data-element-id="to-do-list"] .content > ul {
+    padding: 0;
+}
+[data-element-id="to-do-list"] .content > ul > li {
+    background: #f3f3f3;
+    border-radius: 3px;
+    position: relative;
+    padding: 7px;
+    margin-bottom: 5px;
+    list-style: none
+}
+[data-element-id="to-do-list"] .content > ul > li > p {
+    margin: 0
+}

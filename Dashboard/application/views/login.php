@@ -14,7 +14,7 @@
 		<!-- FAVICONS -->
 		
 		<!-- CSS -->
-		<link href="<?php echo $this->config->item('libraries_url'); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet" />  
+		<link href="<?php echo $this->config->item('libraries_url'); ?>/bootstrap/css/bootstrap.css" rel="stylesheet" />  
 		<link href="<?php echo $this->config->item('contents_font'); ?>/ionicons/css/ionicons.min.css" rel="stylesheet" />
 		<link href="<?php echo $this->config->item('contents_css'); ?>/login.css" rel="stylesheet" />
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

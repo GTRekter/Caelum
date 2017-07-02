@@ -8,14 +8,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Base Site URL
 |--------------------------------------------------------------------------
 */
-$config['base_url']      = 'http://localhost:9000/IbiscoBlu/';
-$config['server_root']   = $_SERVER['DOCUMENT_ROOT'];
-$config['contents_url']  = $config['base_url'] . '/contents';
-$config['contents_css']  = $config['contents_url'] . "/css";
-$config['contents_js']   = $config['contents_url'] . "/js";
-$config['contents_img']  = $config['contents_url'] . "/images";	
-$config['contents_font'] = $config['contents_url'] . "/fonts";	
-$config['libraries_url'] = $config['contents_url'] . '/libraries';
+$config['base_url']          = 'http://localhost:9000/IbiscoBlu/Dashboard';
+$config['server_root']       = $_SERVER['DOCUMENT_ROOT'];
+$config['configuration_url'] = $_SERVER['DOCUMENT_ROOT'] . '/IbiscoBlu/Dashboard/configurations';
+$config['contents_url']      = $config['base_url'] . '/contents';
+$config['contents_css']      = $config['contents_url'] . "/css";
+$config['contents_js']       = $config['contents_url'] . "/js";
+$config['contents_img']      = $config['contents_url'] . "/images";	
+$config['contents_font']     = $config['contents_url'] . "/fonts";	
+$config['libraries_url']     = $config['contents_url'] . '/libraries';
 
 /*
 |--------------------------------------------------------------------------
