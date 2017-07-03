@@ -19,9 +19,12 @@
 	        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	    <![endif]-->
 		<script src="<?php echo $this->config->item('libraries_url'); ?>/jquery/js/jquery-3.2.1.min.js"></script>
+		<script src="<?php echo $this->config->item('libraries_url'); ?>/knockoutjs/js/knockout-3.4.2.js"></script>
 	</head>
 
-	<body>
+	<body data-content-css-url="<?php echo $this->config->item('contents_img'); ?>"
+		data-base-url="<?php echo base_url(); ?>">
+
 		<div class="container body">
 			<div class="main_container">
 
@@ -71,8 +74,6 @@
 
 			</div>
 		</div>
-		<script src="<?php echo $this->config->item('libraries_url'); ?>/angularjs/js/angular.js"></script>
-		<script src="<?php echo $this->config->item('libraries_url'); ?>/angularjs/js/angular-animate.js"></script>
-        <script src="<?php echo $this->config->item('libraries_url'); ?>/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+		<script src="<?php echo $this->config->item('libraries_url'); ?>/bootstrap/js/bootstrap.js" type="text/javascript"></script>
     </body>
 </html>

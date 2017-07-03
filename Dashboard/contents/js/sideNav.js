@@ -45,6 +45,8 @@
 
     /* ==== END: EVENTS ==== */
 
+    /* ==== START: FUNCTIONS ==== */
+
     var setContentHeight = function () {
         // reset height
         $RIGHT_COL.css('min-height', $(window).height());
@@ -59,5 +61,8 @@
 
         $RIGHT_COL.css('min-height', contentHeight);
     };
+
+
+    /* ==== END: FUNCTIONS ==== */
 
 })();

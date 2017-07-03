@@ -9,7 +9,7 @@
         <div class="navbar title">
             <a href="#">
                 <i class="ion-ios-paw"></i> 
-                <span>Surname Name</span>
+                <span>IbiscoBlu</span>
             </a>
         </div>
 
@@ -19,7 +19,7 @@
             </div>
             <div class="info">
                 <span>Welcome,</span>
-                <h2>John Doe</h2>
+                <h2><?php echo $this->session->UserInfo->Name; ?></h2>
             </div>
         </div>
 

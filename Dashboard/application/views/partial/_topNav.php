@@ -6,7 +6,7 @@
 <div data-element-id="top-navbar">
 	<nav>
 		<div class="nav toggle">
-			<a id="menu_toggle" data-element-id="toggle">
+			<a data-element-id="toggle" data-bind="click: onClickToggle">
 				<i class="ion-navicon"></i>
 			</a>
 		</div>
@@ -14,24 +14,19 @@
 		<ul class="nav navbar-nav navbar-right">
 			<li>
 				<a class="user-profile dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:;">
-					<img src="<?php echo $this->config->item('contents_img'); ?>/img.jpg" alt="" >John Doe
+					<img src="<?php echo $this->config->item('contents_img'); ?>/img.jpg" alt="" >
+					<?php echo $this->session->UserInfo->Name ." ". $this->session->UserInfo->Surname; ?>
 					<span class=" fa fa-angle-down"></span>
 				</a>
 				<ul class="dropdown-menu dropdown-usermenu pull-right">
 					<li>
-						<a href="javascript:;"> Profile</a>
+						<a data-bind="click: onClickProfile"> Profile</a>
 					</li>
 					<li>
-						<a href="javascript:;">
-							<span class="badge bg-red pull-right">50%</span>
-							<span>Settings</span>
-						</a>
+						<a data-bind="click: onClickHelp">Help</a>
 					</li>
 					<li>
-						<a href="javascript:;">Help</a>
-					</li>
-					<li>
-						<a href="login.html">
+						<a data-bind="click: onClickLogout">
 							<i class="ion-log-out pull-right"></i> Log Out
 						</a>
 					</li>
@@ -41,71 +36,38 @@
 			<li class="dropdown" role="presentation">
 				<a class="info-number dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:;">
 					<i class="ion-ios-email-outline"></i>
-					<span class="badge bg-green">6</span>
+					<span class="badge bg-green" data-bind="text: messages.length"></span>
 				</a>
 				<ul class="dropdown-menu message-list" role="menu">
+					<!-- ko foreach: messages -->
 					<li>
 						<a>
 							<span class="image">
-								<img alt="Profile Image" src="<?php echo $this->config->item('contents_img'); ?>/img.jpg">
+								<img data-bind="attr: { alt: User.Name, src: ImagePath }">
 							</span>
 							<span>
-								<span>John Smith</span>
-								<span class="time">3 mins ago</span>
+								<span data-bind="text: User.Name"></span>
+								<span class="time" data-bind="text: CreationDate"></span>
 							</span>
-							<span class="message">
-								Film festivals used to be do-or-die moments for movie makers. They were where...
-							</span>
+							<span class="message" data-bind="text: Message"></span>
 						</a>
 					</li>
-					<li>
+					<!-- /ko -->
+					<!-- ko if: messages.length == 0 -->
+					<li class="text-center">
 						<a>
-							<span class="image">
-								<img alt="Profile Image" src="<?php echo $this->config->item('contents_img'); ?>/img.jpg">
-							</span>
-							<span>
-								<span>John Smith</span>
-								<span class="time">3 mins ago</span>
-							</span>
-							<span class="message">
-								Film festivals used to be do-or-die moments for movie makers. They were where...
-							</span>
+							<strong>No message available</strong>
 						</a>
 					</li>
-					<li>
-						<a>
-							<span class="image">
-								<img alt="Profile Image" src="<?php echo $this->config->item('contents_img'); ?>/img.jpg">
-							</span>
-							<span>
-								<span>John Smith</span>
-								<span class="time">3 mins ago</span>
-							</span>
-							<span class="message">
-								Film festivals used to be do-or-die moments for movie makers. They were where...
-							</span>
-						</a>
-					</li>
-					<li>
-						<a>
-							<span class="image">
-								<img alt="Profile Image" src="<?php echo $this->config->item('contents_img'); ?>/img.jpg">
-							</span>
-							<span>
-								<span>John Smith</span>
-								<span class="time">3 mins ago</span>
-							</span>
-							<span class="message">
-								Film festivals used to be do-or-die moments for movie makers. They were where...
-							</span>
-						</a>
-					</li>
+					<!-- /ko -->
+					<!-- ko if: messages.length > 5 -->
 					<li class="text-center">
 						<a>
 							<strong>See All Alerts</strong>
 							<i class="ion-chevron-right"></i>
 						</a>
 					</li>
+					<!-- /ko -->
 				</ul>
 			</li>
 		</ul>
