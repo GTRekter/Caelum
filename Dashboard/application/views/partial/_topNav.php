@@ -6,7 +6,7 @@
 <div data-element-id="top-navbar">
 	<nav>
 		<div class="nav toggle">
-			<a data-element-id="toggle" data-bind="click: onClickToggle">
+			<a data-element-id="toggle" data-bind="click: onClickToggleSideNavbar">
 				<i class="ion-navicon"></i>
 			</a>
 		</div>
@@ -36,10 +36,10 @@
 			<li class="dropdown" role="presentation">
 				<a class="info-number dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="javascript:;">
 					<i class="ion-ios-email-outline"></i>
-					<span class="badge bg-green" data-bind="text: messages.length"></span>
+					<span class="badge bg-green" data-bind="text: Messages.length"></span>
 				</a>
 				<ul class="dropdown-menu message-list" role="menu">
-					<!-- ko foreach: messages -->
+					<!-- ko foreach: Messages -->
 					<li>
 						<a>
 							<span class="image">
@@ -53,14 +53,14 @@
 						</a>
 					</li>
 					<!-- /ko -->
-					<!-- ko if: messages.length == 0 -->
+					<!-- ko if: Messages.length == 0 -->
 					<li class="text-center">
 						<a>
 							<strong>No message available</strong>
 						</a>
 					</li>
 					<!-- /ko -->
-					<!-- ko if: messages.length > 5 -->
+					<!-- ko if: Messages.length > 5 -->
 					<li class="text-center">
 						<a>
 							<strong>See All Alerts</strong>
@@ -74,5 +74,3 @@
 	</nav>
 </div>
 <!-- END Top Navbar-->
-
-<script src="<?php echo $this->config->item('contents_js'); ?>/topNav.js" type="text/javascript"></script>

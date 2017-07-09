@@ -3,7 +3,7 @@
 <link href="<?php echo $this->config->item('contents_css'); ?>/list.css" rel="stylesheet" />  
 
 <!-- START: LIST -->
-<div class="panel">
+<div class="panel" data-bind="visible: ListVisible">
 
   <div class="title">
     <h2>Projects</h2>
@@ -70,5 +70,6 @@
     <!-- end project list -->
 
   </div>
+
 </div>
 <!-- END: LIST -->

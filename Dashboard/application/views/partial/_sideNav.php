@@ -26,107 +26,71 @@
         <div class="clearfix"></div>
 
         <div class="navbar side-navbar">
+
             <div class="section">
-                <h3>General</h3>
+                <h3>Gestione</h3>
                 <ul class="nav">
                     <li>
                         <a>
-                            <i class="ion-ios-home"></i> Home 
+                            <i class="ion-ios-paw"></i> 
+                            <span>Cani</span> 
                             <i class="ion-chevron-down pull-right hidden-close"></i>
                         </a>
                         <ul class="nav">
                             <li>
-                                <a href="index.html">Dashboard</a>
-                            </li>
-                            <li>
-                                <a href="index2.html">Dashboard2</a>
-                            </li>
-                            <li>
-                                <a href="index3.html">Dashboard3</a>
+                                <a data-bind="click: onClickDogsList">Lista</a>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <a>
-                            <i class="ion-ios-home"></i> Home 
+                            <i class="ion-network"></i> 
+                            <span>Razze</span> 
                             <i class="ion-chevron-down pull-right hidden-close"></i>
                         </a>
                         <ul class="nav">
                             <li>
-                                <a href="index.html">Dashboard</a>
-                            </li>
-                            <li>
-                                <a href="index2.html">Dashboard2</a>
-                            </li>
-                            <li>
-                                <a href="index3.html">Dashboard3</a>
+                                <a data-bind="click: onClickRacesList">Lista</a>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <a>
-                            <i class="ion-ios-home"></i> Home 
+                            <i class="ion-ribbon-a"></i> 
+                            <span>Esibizioni</span> 
                             <i class="ion-chevron-down pull-right hidden-close"></i>
                         </a>
                         <ul class="nav">
                             <li>
-                                <a href="index.html">Dashboard</a>
-                            </li>
-                            <li>
-                                <a href="index2.html">Dashboard2</a>
-                            </li>
-                            <li>
-                                <a href="index3.html">Dashboard3</a>
+                                <a data-bind="click: onClickExibitionsTypesList">Tipologie</a>
+                                <a data-bind="click: onClickExibitionsClassesList">Classi</a>
                             </li>
                         </ul>
                     </li>
                 </ul>
             </div>
+
             <div class="section">
-                <h3>Live On</h3>
+                <h3>Impostazioni</h3>
                 <ul class="nav">
                     <li>
                         <a>
-                            <i class="ion-ios-home"></i> Home 
+                            <i class="ion-ios-gear"></i> 
+                            <span>Generali</span> 
                             <i class="ion-chevron-down pull-right hidden-close"></i>
                         </a>
                         <ul class="nav">
                             <li>
-                                <a href="index.html">Dashboard</a>
+                                <a data-bind="click: onClickUsersList">Utenti</a>
                             </li>
                             <li>
-                                <a href="index2.html">Dashboard2</a>
-                            </li>
-                            <li>
-                                <a href="index3.html">Dashboard3</a>
+                                <a data-bind="click: onClickLocalizationsList">Traduzioni</a>
                             </li>
                         </ul>
-                    </li>
-                    <li>
-                        <a>
-                            <i class="ion-ios-home"></i> Home 
-                            <i class="ion-chevron-down pull-right hidden-close"></i>
-                        </a>
-                        <ul class="nav">
-                            <li>
-                                <a href="index.html">Dashboard</a>
-                            </li>
-                            <li>
-                                <a href="index2.html">Dashboard2</a>
-                            </li>
-                            <li>
-                                <a href="index3.html">Dashboard3</a>
-                            </li>
-                        </ul>
-                    </li>                 
-                    <li>
-                        <a href="javascript:void(0)">
-                            <i class="ion-android-laptop"></i> Landing Page 
-                            <span class="label label-success pull-right">Coming Soon</span>
-                        </a>
                     </li>
                 </ul>
             </div>
+
         </div>
 
         <div class="sidebar-footer hidden-small">

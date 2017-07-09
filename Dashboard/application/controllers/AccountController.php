@@ -26,6 +26,10 @@ class AccountController extends CI_Controller {
 				$validationResult = $this->validateCredentials($username, $password);
 				log_message('debug','[Autenticate] ValidationResult: ' . $validationResult);
 
+				//TODO: Generate a custom token and store it in the session
+				// by the token i can get all the user information
+				// ex. $this->security->get_csrf_token_name();
+
 				if ($validationResult) {					
 					redirect('back');	
 				} else {
@@ -36,6 +40,25 @@ class AccountController extends CI_Controller {
 			log_message('error','[AccountController][Autenticate] Message' + $e->getMessage());
 			log_message('debug','[AccountController][Autenticate] End');
 		}
+	}
+
+	public function Logout() {
+		/* TODO:
+		- at the login save a token in the session
+		- save the token and use it to validate the call (FUCK YEAH)
+		*/
+		log_message('debug','[AccountController][Logout] Start');
+
+		$userToken = $this->session->userToken;
+		$validationResult = $this->validateToken($userToken);
+
+		if ($validationResult) {							
+			$this->load->model('AccountModel');
+			$user = $this->AccountModel->logout($currentUser);
+			redirect('front/login');
+		}
+
+		log_message('debug','[AccountController][Logout] Start');
 	}
 
 	public function getUserInformations($username) {
@@ -71,6 +94,19 @@ class AccountController extends CI_Controller {
 
 		$this->load->model('AccountModel');
 		$validationResult = $this->AccountModel->validate($username, $password);
+
+		log_message('debug','[AccountController][validateCredentials] End');
+
+		return $validationResult;
+	}
+
+	private function validateToken($token) {
+		
+		log_message('debug','[AccountController][validateCredentials] Start');
+
+		$this->load->model('AccountModel');
+		// $validationResult = $this->AccountModel->validate($username, $password);
+		// TODO: store the token on the DB or find something else to persist it
 
 		log_message('debug','[AccountController][validateCredentials] End');
 

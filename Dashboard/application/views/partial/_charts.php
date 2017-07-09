@@ -3,7 +3,7 @@
 <link href="<?php echo $this->config->item('contents_css'); ?>/charts.css" rel="stylesheet" />  
 
 <!-- START: Charts -->
-<div data-element-id="charts">
+<div data-element-id="charts" data-bind="visible: ChartsVisible">
 
     <div class="row title">
         <div class="col-xs-12">

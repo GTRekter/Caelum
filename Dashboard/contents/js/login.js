@@ -21,7 +21,7 @@ $(document).ready(function (e) {
     // Check if the user is already connected
     $.ajax({
         type: "GET",
-        url: appBaseUrl + '/Account/IsAuthenticated',
+        url: appBaseUrl + '/AccountController/IsAuthenticated',
         dataType: 'json',
         success: function (isAuthenticated) {
 

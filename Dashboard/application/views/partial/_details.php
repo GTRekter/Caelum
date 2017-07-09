@@ -2,192 +2,189 @@
 
 <link href="<?php echo $this->config->item('contents_css'); ?>/details.css" rel="stylesheet" />  
 
-<div class="row">
-
-  <div class="col-md-12 col-sm-12 col-xs-12">
-    <div class="panel">
-      <div class="title">
-        <h2>Form Design <small>different form elements</small></h2>
-        <div class="clearfix"></div>
-      </div>
-      <div class="content">
-        <br />
-        <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
-
-          <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">First Name <span class="required">*</span>
-            </label>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Last Name <span class="required">*</span>
-            </label>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Middle Name / Initial</label>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Gender</label>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              <div id="gender" class="btn-group" data-toggle="buttons">
-                <label class="btn btn-default" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
-                  <input type="radio" name="gender" value="male"> &nbsp; Male &nbsp;
-                </label>
-                <label class="btn btn-primary" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
-                  <input type="radio" name="gender" value="female"> Female
-                </label>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Date Of Birth <span class="required">*</span>
-            </label>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-              <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" required="required" type="text">
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Default Input</label>
-            <div class="col-md-9 col-sm-9 col-xs-12">
-              <input type="text" class="form-control" placeholder="Default Input">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Disabled Input </label>
-            <div class="col-md-9 col-sm-9 col-xs-12">
-              <input type="text" class="form-control" disabled="disabled" placeholder="Disabled Input">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Read-Only Input</label>
-            <div class="col-md-9 col-sm-9 col-xs-12">
-              <input type="text" class="form-control" readonly="readonly" placeholder="Read-Only Input">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Date Of Birth <span class="required">*</span>
-            </label>
-            <div class="col-md-9 col-sm-9 col-xs-12">
-              <textarea class="form-control" rows="3" placeholder='rows="3"'></textarea>
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Password</label>
-            <div class="col-md-9 col-sm-9 col-xs-12">
-              <input type="password" class="form-control" value="passwordonetwo">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">AutoComplete</label>
-            <div class="col-md-9 col-sm-9 col-xs-12">
-              <input type="text" name="country" id="autocomplete-custom-append" class="form-control col-md-10"/>
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Select</label>
-            <div class="col-md-9 col-sm-9 col-xs-12">
-              <select class="form-control">
-                <option>Choose option</option>
-                <option>Option one</option>
-                <option>Option two</option>
-                <option>Option three</option>
-                <option>Option four</option>
-              </select>
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Select Custom</label>
-            <div class="col-md-9 col-sm-9 col-xs-12">
-              <select class="select2_single form-control" tabindex="-1">
-                <option></option>
-                <option value="AK">Alaska</option>
-                <option value="HI">Hawaii</option>
-                <option value="CA">California</option>
-                <option value="NV">Nevada</option>
-                <option value="OR">Oregon</option>
-                <option value="WA">Washington</option>
-                <option value="AZ">Arizona</option>
-                <option value="CO">Colorado</option>
-                <option value="ID">Idaho</option>
-                <option value="MT">Montana</option>
-                <option value="NE">Nebraska</option>
-                <option value="NM">New Mexico</option>
-                <option value="ND">North Dakota</option>
-                <option value="UT">Utah</option>
-                <option value="WY">Wyoming</option>
-                <option value="AR">Arkansas</option>
-                <option value="IL">Illinois</option>
-                <option value="IA">Iowa</option>
-                <option value="KS">Kansas</option>
-                <option value="KY">Kentucky</option>
-                <option value="LA">Louisiana</option>
-                <option value="MN">Minnesota</option>
-                <option value="MS">Mississippi</option>
-                <option value="MO">Missouri</option>
-                <option value="OK">Oklahoma</option>
-                <option value="SD">South Dakota</option>
-                <option value="TX">Texas</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="control-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Input Tags</label>
-            <div class="col-md-9 col-sm-9 col-xs-12">
-              <input id="tags_1" type="text" class="tags form-control" value="social, adverts, sales" />
-              <div id="suggestions-container" style="position: relative; float: left; width: 250px; margin: 10px;"></div>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label class="control-label col-md-3 col-sm-3 col-xs-12">Switch</label>
-            <div class="col-md-9 col-sm-9 col-xs-12">
-              <div class="">
-                <label>
-                  <input type="checkbox" class="js-switch" checked /> Checked
-                </label>
-              </div>
-              <div class="">
-                <label>
-                  <input type="checkbox" class="js-switch" /> Unchecked
-                </label>
-              </div>
-              <div class="">
-                <label>
-                  <input type="checkbox" class="js-switch" disabled="disabled" /> Disabled
-                </label>
-              </div>
-              <div class="">
-                <label>
-                  <input type="checkbox" class="js-switch" disabled="disabled" checked="checked" /> Disabled Checked
-                </label>
-              </div>
-            </div>
-          </div>
-
-          <div class="ln_solid"></div>
-          <div class="form-group">
-            <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-              <button class="btn btn-primary" type="button">Cancel</button>
-              <button class="btn btn-primary" type="reset">Reset</button>
-              <button type="submit" class="btn btn-success">Submit</button>
-            </div>
-          </div>
-
-        </form>
-      </div>
-    </div>   
+<div class="panel" data-bind="visible: DetailVisible">
+  <div class="title">
+    <h2>Form Design <small>different form elements</small></h2>
+    <div class="clearfix"></div>
   </div>
+  <div class="content">
+    <br />
+    <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
 
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">First Name <span class="required">*</span>
+        </label>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Last Name <span class="required">*</span>
+        </label>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Middle Name / Initial</label>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Gender</label>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div id="gender" class="btn-group" data-toggle="buttons">
+            <label class="btn btn-default" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+              <input type="radio" name="gender" value="male"> &nbsp; Male &nbsp;
+            </label>
+            <label class="btn btn-primary" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+              <input type="radio" name="gender" value="female"> Female
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Date Of Birth <span class="required">*</span>
+        </label>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <input id="birthday" class="date-picker form-control col-md-7 col-xs-12" required="required" type="text">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Default Input</label>
+        <div class="col-md-9 col-sm-9 col-xs-12">
+          <input type="text" class="form-control" placeholder="Default Input">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Disabled Input </label>
+        <div class="col-md-9 col-sm-9 col-xs-12">
+          <input type="text" class="form-control" disabled="disabled" placeholder="Disabled Input">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Read-Only Input</label>
+        <div class="col-md-9 col-sm-9 col-xs-12">
+          <input type="text" class="form-control" readonly="readonly" placeholder="Read-Only Input">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Date Of Birth <span class="required">*</span>
+        </label>
+        <div class="col-md-9 col-sm-9 col-xs-12">
+          <textarea class="form-control" rows="3" placeholder='rows="3"'></textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Password</label>
+        <div class="col-md-9 col-sm-9 col-xs-12">
+          <input type="password" class="form-control" value="passwordonetwo">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">AutoComplete</label>
+        <div class="col-md-9 col-sm-9 col-xs-12">
+          <input type="text" name="country" id="autocomplete-custom-append" class="form-control col-md-10"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Select</label>
+        <div class="col-md-9 col-sm-9 col-xs-12">
+          <select class="form-control">
+            <option>Choose option</option>
+            <option>Option one</option>
+            <option>Option two</option>
+            <option>Option three</option>
+            <option>Option four</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Select Custom</label>
+        <div class="col-md-9 col-sm-9 col-xs-12">
+          <select class="select2_single form-control" tabindex="-1">
+            <option></option>
+            <option value="AK">Alaska</option>
+            <option value="HI">Hawaii</option>
+            <option value="CA">California</option>
+            <option value="NV">Nevada</option>
+            <option value="OR">Oregon</option>
+            <option value="WA">Washington</option>
+            <option value="AZ">Arizona</option>
+            <option value="CO">Colorado</option>
+            <option value="ID">Idaho</option>
+            <option value="MT">Montana</option>
+            <option value="NE">Nebraska</option>
+            <option value="NM">New Mexico</option>
+            <option value="ND">North Dakota</option>
+            <option value="UT">Utah</option>
+            <option value="WY">Wyoming</option>
+            <option value="AR">Arkansas</option>
+            <option value="IL">Illinois</option>
+            <option value="IA">Iowa</option>
+            <option value="KS">Kansas</option>
+            <option value="KY">Kentucky</option>
+            <option value="LA">Louisiana</option>
+            <option value="MN">Minnesota</option>
+            <option value="MS">Mississippi</option>
+            <option value="MO">Missouri</option>
+            <option value="OK">Oklahoma</option>
+            <option value="SD">South Dakota</option>
+            <option value="TX">Texas</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Input Tags</label>
+        <div class="col-md-9 col-sm-9 col-xs-12">
+          <input id="tags_1" type="text" class="tags form-control" value="social, adverts, sales" />
+          <div id="suggestions-container" style="position: relative; float: left; width: 250px; margin: 10px;"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Switch</label>
+        <div class="col-md-9 col-sm-9 col-xs-12">
+          <div class="">
+            <label>
+              <input type="checkbox" class="js-switch" checked /> Checked
+            </label>
+          </div>
+          <div class="">
+            <label>
+              <input type="checkbox" class="js-switch" /> Unchecked
+            </label>
+          </div>
+          <div class="">
+            <label>
+              <input type="checkbox" class="js-switch" disabled="disabled" /> Disabled
+            </label>
+          </div>
+          <div class="">
+            <label>
+              <input type="checkbox" class="js-switch" disabled="disabled" checked="checked" /> Disabled Checked
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="ln_solid"></div>
+      <div class="form-group">
+        <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+          <button class="btn btn-primary" type="button">Cancel</button>
+          <button class="btn btn-primary" type="reset">Reset</button>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</div>   
+
+<!--
   <div class="col-md-12 col-sm-12 col-xs-12">
     <div class="x_panel">
       <div class="x_title">
@@ -296,6 +293,4 @@
         </div>
       </div>
     </div>
-  </div>
-
-</div>
+  </div>-->

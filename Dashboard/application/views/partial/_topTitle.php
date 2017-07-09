@@ -2,7 +2,7 @@
 
 <link href="<?php echo $this->config->item('contents_css'); ?>/topTitle.css" rel="stylesheet" />  
 
-<div class="page-title">
+<div class="page-title" data-bind="visible: TopTitleVisible">
   <div class="title_left">
     <h3>Projects 
       <small>Listing design</small>

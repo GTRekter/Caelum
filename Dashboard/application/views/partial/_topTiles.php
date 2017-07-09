@@ -3,7 +3,7 @@
 <link href="<?php echo $this->config->item('contents_css'); ?>/topTiles.css" rel="stylesheet" />  
 
 <!-- top tiles -->
-<div class="row tile_count" data-element-id="top-tiles">
+<div class="row tile_count" data-element-id="top-tiles" data-bind="visible: TopTilesVisible">
     <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
         <span class="count_top">
             <i class="fa fa-user"></i> Total Users

@@ -22,8 +22,8 @@
 		<script src="<?php echo $this->config->item('libraries_url'); ?>/knockoutjs/js/knockout-3.4.2.js"></script>
 	</head>
 
-	<body data-content-css-url="<?php echo $this->config->item('contents_img'); ?>"
-		data-base-url="<?php echo base_url(); ?>">
+	<body data-content-img-url="<?php echo $this->config->item('contents_img'); ?>"
+		data-base-url="<?php echo base_url('index.php/'); ?>">
 
 		<div class="container body">
 			<div class="main_container">
@@ -32,40 +32,23 @@
 				<?php echo $topNav; ?>
 
 				<div class="right_col">
-					
-					<!-- DASHBOARD -->
-					<!--
-					<-?php echo $topTiles; ?>
-					<div class="row">
-    					<div class="col-md-12 col-sm-12 col-xs-12">
-							<-?php echo $charts; ?>
-						</div>
-					</div>
-					<br/>
-					<div class="row">
-						<div class="col-md-6 col-sm-6 col-xs-12">
-							<-?php echo $activities; ?>
-						</div>
-						<div class="col-md-6 col-sm-6 col-xs-12">
-							<-?php echo $toDoList; ?>
-						</div>
-					</div>
-					-->
 
-					<!-- LIST -->
-					<!--
-					<-?php echo $topTitle; ?>
-					<div class="row">
-						<div class="col-md-12">
-							<-?php echo $list; ?>
-						</div>
-					</div>	
-					-->			
-
-					<!-- DETAILS -->
+					<?php echo $topTiles; ?>
 					<?php echo $topTitle; ?>
 					<div class="row">
+
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<?php echo $charts; ?>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<?php echo $activities; ?>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<?php echo $toDoList; ?>
+						</div>
+
 						<div class="col-md-12">
+							<?php echo $list; ?>
 							<?php echo $details; ?>
 						</div>
 					</div>		
@@ -74,6 +57,7 @@
 
 			</div>
 		</div>
+		<script src="<?php echo $this->config->item('contents_js'); ?>/general.js" type="text/javascript"></script>
 		<script src="<?php echo $this->config->item('libraries_url'); ?>/bootstrap/js/bootstrap.js" type="text/javascript"></script>
     </body>
 </html>

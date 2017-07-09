@@ -3,7 +3,7 @@
 <link href="<?php echo $this->config->item('contents_css'); ?>/activities.css" rel="stylesheet" />  
 
 <!-- START: Activities -->
-<div class="panel" data-element-id="activities">
+<div class="panel" data-element-id="activities" data-bind="visible: ActivitiesVisible"> 
     <div class="title">
         <h2>Recent Activities 
             <small>Sessions</small>

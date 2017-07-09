@@ -3,7 +3,7 @@
 <link href="<?php echo $this->config->item('contents_css'); ?>/toDoList.css" rel="stylesheet" />  
 
 <!-- START: ToDoList -->
-<div class="panel" data-element-id="to-do-list">
+<div class="panel" data-element-id="to-do-list" data-bind="visible: ToDoListVisible">
     <div class="title">
         <h2>To Do List 
             <small>Sample tasks</small>
