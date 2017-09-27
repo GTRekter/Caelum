@@ -8,9 +8,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Base Site URL
 |--------------------------------------------------------------------------
 */
-$config['base_url']          = 'http://localhost:9000/IbiscoBlu/Dashboard';
+// Development
+// $config['base_url']          = 'http://localhost:8888/IbiscoBlu_1.0.0/Dashboard';
+// Test
+$config['base_url']          = 'http://www.ibiscoblu.fashionlux.it';
 $config['server_root']       = $_SERVER['DOCUMENT_ROOT'];
-$config['configuration_url'] = $_SERVER['DOCUMENT_ROOT'] . '/IbiscoBlu/Dashboard/configurations';
 $config['contents_url']      = $config['base_url'] . '/contents';
 $config['contents_css']      = $config['contents_url'] . "/css";
 $config['contents_js']       = $config['contents_url'] . "/js";
@@ -54,11 +56,6 @@ $config['url_suffix'] = '';
 |--------------------------------------------------------------------------
 | Default Language
 |--------------------------------------------------------------------------
-|
-| This determines which set of language files should be used. Make sure
-| there is an available translation if you intend to use something other
-| than english.
-|
 */
 $config['language']	= 'english';
 
@@ -102,26 +99,6 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 |--------------------------------------------------------------------------
 | Enable Query Strings
 |--------------------------------------------------------------------------
-|
-| By default CodeIgniter uses search-engine friendly segment based URLs:
-| example.com/who/what/where/
-|
-| By default CodeIgniter enables access to the $_GET array.  If for some
-| reason you would like to disable it, set 'allow_get_array' to FALSE.
-|
-| You can optionally enable standard query string based URLs:
-| example.com?who=me&what=something&where=here
-|
-| Options are: TRUE or FALSE (boolean)
-|
-| The other items let you set the query string 'words' that will
-| invoke your controllers and its functions:
-| example.com/index.php?c=controller&m=function
-|
-| Please note that some of the helpers won't work as expected when
-| this feature is enabled, since CodeIgniter is designed primarily to
-| use segment based URLs.
-|
 */
 $config['allow_get_array'] = TRUE;
 $config['enable_query_strings'] = FALSE;
@@ -211,12 +188,6 @@ $config['cache_query_string'] = FALSE;
 |--------------------------------------------------------------------------
 | Encryption Key
 |--------------------------------------------------------------------------
-|
-| If you use the Encryption class, you must set an encryption key.
-| See the user guide for more info.
-|
-| http://codeigniter.com/user_guide/libraries/encryption.html
-|
 */
 $config['encryption_key'] = 'C1O2N3S4O5L6E';
 
@@ -295,7 +266,8 @@ $config['standardize_newlines'] = FALSE;
 | checked on a submitted form. If you are accepting user data, it is strongly
 | recommended CSRF protection be enabled.
 */
-$config['csrf_protection'] = TRUE;
+// $config['csrf_protection'] = TRUE;
+$config['csrf_protection'] = FALSE;
 $config['csrf_token_name'] = 'csrf_authentication_token';
 $config['csrf_cookie_name'] = 'csrf_cookie_name';
 $config['csrf_expire'] = 7200;
@@ -337,7 +309,6 @@ $config['time_reference'] = 'local';
 |--------------------------------------------------------------------------
 */
 $config['rewrite_short_tags'] = FALSE;
-
 
 /*
 |--------------------------------------------------------------------------
